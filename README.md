@@ -63,9 +63,11 @@ cd ATM-Management-System
 
 3. Run the Application:  
 - Compile the Java code using `javac`  
-- Run the main class (e.g., `LoginPage.java`)  
+- Run the main class (e.g., `LoginPage.java`)
 
-Usage
+  Commands:
+- javac -cp ".;jcalendar-tz-1.3.3-4.jar;mysql-connector-java-8.0.28.jar" *.java
+- java -cp ".;jcalendar-tz-1.3.3-4.jar;mysql-connector-java-8.0.28.jar" LoginPage
 
 Sign Up:  
 - New users can sign up by providing personal details across three forms  
